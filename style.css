@@ -1,0 +1,497 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Global Css */
+
+
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+.btn {
+    background: #DD0000;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.btn i {
+    margin-left: 10px;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.main {
+    padding: 4% 8%;
+}
+
+
+/* Home Section */
+
+.home-section {
+    position: relative;
+    background-color: #161616;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    padding: 111px 0 111px 106px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.home-details {width: 50%;}
+
+.home-heading {
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.home-details p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 20px 0 40px 0;
+}
+
+.home-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+}
+
+.home-pic {width: 50%;}
+
+/* Blog section */
+
+.match-container {
+    display: flex;
+}
+
+.match-list {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px;
+    background: #161616;
+    border-radius: 8px;
+    height: 100%;
+    margin-right: 25px;
+}
+
+a.secoud-btn {
+    background: #fff;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+a.btn.secoud-btn.highlight-btn {
+    color: #fff;
+    background: #DD0000;
+}
+
+.match-blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    overflow: hidden;
+}
+
+.single-blog {
+    border: 1px solid gray;
+    width: 100%;
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+
+.single-match-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-details {
+    padding: 20px;
+}
+
+a.blog-category {
+    color: #000;
+    border: 1px solid #000;
+    padding: 5px 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+h3.blog-title {
+    line-height: 30px;
+    margin: 0;
+    padding: 15px 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.blog-icon {
+    display: flex;
+}
+
+.single-blog-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.single-blog-icon img {
+    margin-right: 5px;
+}
+
+/* Footer Css */
+
+.main.footer-main {
+    background: #161616;
+    text-align: center;
+}
+
+.footer-logo h1 {
+    color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid gray;
+}
+
+.footer-menu {
+    padding: 30px 0;
+}
+
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu li {
+    list-style: none;
+}
+
+.footer-menu li a {
+    color: gray;
+    margin-right: 30px;
+}
+
+
+/* 2nd Website Css */
+
+.single-match {
+    padding: 40px 19px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.match-flag {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.match-flag img {margin: 0 20px;width: 50px;}
+
+.match-detais {
+    margin-top: 25px;
+}
+
+.match-detais p {
+    font-size: 14px;
+}
+
+
+
+
+/* Contact CSS*/
+section#contact {
+    margin: 50px 0;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-text {
+    width: 48%;
+}
+
+.form-input {
+    width: 48%;
+}
+
+.contact .form {
+    border-radius: 10px;
+    z-index: 1000;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  }
+  
+  .contact .contact-form {
+    border-radius: 10px;
+    padding: 2.3rem 2.2rem;
+    z-index: 10;
+    overflow: hidden;
+    position: relative;  
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  }
+  
+  .contact .title {  
+    color: #DD0000;
+    font-weight: 500;
+    font-size: 3.5rem;
+    line-height: 1;
+    margin-bottom: 0.7rem;
+  }
+  
+  .contact .input-container {
+    margin: 1rem 0;
+  }
+  
+  .contact .input {
+    width: 100%;
+    outline: none;
+    border: 1px solid #909ea7;
+    background: none;
+    padding: 9px 15px;
+    color: black;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    transition: .4s;
+  }
+  
+  .contact textarea.input {
+    padding: 0.8rem 1.2rem;
+    min-height: 130px;
+    resize: none;
+    overflow-y: auto;
+  }
+  .contact .contact-info {
+    padding: 2.3rem 2.2rem;
+    position: relative;
+  }
+  
+  .contact h3.title {
+    color: #DD0000;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  
+  .contact .text {
+    color: gray;
+    margin: 2rem 0 2rem 0;
+    font-size: 18px;
+    line-height: 36px;
+  }
+  
+  .contact .information {
+    color: #3c3e41;
+  }
+  
+  .contact .social-media {padding-bottom: 30px;}
+  
+  .contact .social-media p {
+    color: gray;
+  }
+  
+  .contact .social-icons {
+    display: flex;
+  }
+  
+  .contact .social-icons a {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 0.7rem;
+    transition: .4s;
+    font-size: 18px;
+  }
+  
+  .contact .social-icons a:hover {
+    transform: scale(1.05);
+  }
+  
+  .contact .contact-info:before {
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 100px;
+    border: 22px solid #DD0000;
+    border-radius: 50%;
+    bottom: -77px;
+    right: 50px;
+    opacity: 0.3;
+  }
+  
+  .contact .info {
+    margin: 40px 0px;
+  }
+  .contact .information p {
+    font-size: 18px;
+    color: gray;
+  }
+  .contact .information i {
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 850px) {
+    .contact .contact-info:before {
+      bottom: initial;
+      top: -75px;
+      right: 65px;
+      transform: scale(0.95);
+    }
+    .contact .contact-form:before {
+      top: -13px;
+      left: initial;
+      right: 70px;
+    }
+    .contact .text {
+      margin: 1rem 0 1.5rem 0;
+    }
+    .contact .social-media {
+      padding: 1.5rem 0 0 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact .contact-info:before {
+      display: none;
+    }
+    .contact-form,
+    .contact-info {
+      padding: 1.7rem 1.6rem;
+    }
+    .contact .text,
+    .contact .information,
+    .contact .social-media p {
+      font-size: 0.8rem;
+    }
+    .contact h3.title {
+      font-size: 2.15rem;
+    }
+  }
+
+
+
+
+
+
+
+/* Responcive Css */
+
+
+/* Tablet Responcive Css */
+
+@media only screen and (max-width: 768px) {
+
+
+    /* Home Responcive Css */
+ 
+    .home-section {
+        height: inherit;
+    }
+
+    h1.home-heading {
+        font-size: 45px;
+        line-height: 1.2;
+    }
+    
+    .home-details p {
+        font-size: 13px;
+    }
+   
+
+    /* Blog Responcive Css */
+
+    .match-container {
+        flex-direction: column;
+    }
+    
+    .match-list {
+        flex-direction: revert;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    
+    .match-list a {
+        font-size: 18px;
+    }
+    
+    .match-blog {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    
+.form-text {
+    width: 100%;
+}
+
+.form-input {
+    width: 100%;
+}
+
+  }
+
+  /* Mobile Responcive Css */
+
+  @media only screen and (max-width: 425px) {
+
+    .home-section {
+        flex-direction: column;
+        padding: 40px 20px 0 20px;
+    }
+    
+    .home-details {
+        width: 100%;
+    }
+    
+    .home-pic {
+        width: 100%;
+        padding-top: 50px;
+    }
+    
+    .match-blog {
+        grid-template-columns: 1fr;
+    }
+
+
+  }
